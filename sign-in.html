@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create account</title>
+  <link rel="stylesheet" href="../styles/div-form.css">
+ 
+</head>
+<body>
+  <section>
+
+  
+ <div class="main-login">
+  <div class="left-login">
+    <div class="title">
+      <h1>Sign in</h1>
+    </div>
+    
+
+    <div class="form" data-formulario>
+
+     <div class="input">
+      <label class="campo" for="nome">Nome Completo</label>
+      <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required>
+      <span class="mensagem-erro"></span>
+     </div>
+
+    <div>
+      <label class="campo" for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+      <span class="mensagem-erro"></span>
+    </div>
+    
+    <div>
+      <label class="campo" for="rg">RG</label>
+      <input type="text" name="rg" id="rg" placeholder="Digite seu RG" required>
+      <span class="mensagem-erro"></span>
+     </div>
+
+     <div>
+      <label class="campo" for="cpf">CPF</label>
+      <input type="text" name="cpf" id="cpf" placeholder="Digite seu CPF" required minlength="11" maxlength="14" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}">
+      <span class="mensagem-erro"></span>
+     </div>
+
+     <div>
+      <label class="campo" for="aniversario">Data de Nascimento</label>
+      <input type="date" name="aniversario" id="aniversario"  required>
+      <span class="mensagem-erro"></span>
+     </div>
+
+     <div>
+      <label class="campo" for="senha">Senha</label>
+      <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+      <span class="mensagem-erro"></span>
+     </div>
+    </div>
+
+     <div class="continue">
+      <input value="Avançar" class="formulario__botao" id="enviar" data-botao-enviar type="submit">
+      <span class="mensagem-erro"></span>
+     </div>
+   
+  </div>
+  
+    <div class="right-login">
+      <div class="log">
+        <div class="title"> <h1>Hello my friend!</h1></div>
+        <div class="p">
+          <p>Already have an account with us? <br>
+          Continue</p>
+        </div>
+        <div class="continue">
+         <a href="./log-in.html"> <button>Log in</button></a>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</section>
+<script src="../js/index.js" type="module"></script>
+  
+</body>
+</html>

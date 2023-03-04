@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Tilt Warp', cursive;
+}
+body{
+  background: linear-gradient(0.25turn, #161616, #252424, #1a1919);
+  
+}
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px;
+  background-color: rgba(0, 0, 0, 0.082);
+  border-radius: 30px;
+  box-shadow: 0 5px 25px rgba(0,0,0,.6);
+ 
+  
+}
+.li, ul  {
+  display:flex;
+  list-style: none;
+}
+.logo{
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+}
+.cadastro-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+.log-sig{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+a {
+  padding: 10px;
+  color: #9B9DA4;
+}
+.continue button{
+  width: 50%;
+  margin-top: 1rem;
+  border: none;
+  background-color: #9a54db;
+  padding: 0.62rem;
+  border-radius: 10px;
+  cursor: pointer;
+ 
+}
+
+.a-sign{
+    width: 100%;
+    margin-top: 1rem;
+    border: none;
+    background-color: #9a54db;
+    padding: 0.62rem;
+    border-radius: 10px;
+    cursor: pointer;
+    color: aliceblue;
+  }
+
+.home:hover{
+  color: aliceblue;
+}
+.about:hover{
+  color: aliceblue;
+}
+.contact:hover{
+  color: aliceblue;
+}
+.log:hover{
+  color: aliceblue;
+}
+.a-sign:hover{
+   background-color: aliceblue;
+   color: #9a54db;
+   transition:  0.5s ease-in-out;
+}
+.txtbtt{
+  box-shadow: 1px 10px 17px 10px rgba(0, 0, 0, .212);
+}
